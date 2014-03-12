@@ -1,0 +1,405 @@
+<!--
+Google IO 2012/2013 HTML5 Slide Template
+
+Authors: Eric Bidelman <ebidel@gmail.com>
+         Luke Mahé <lukem@google.com>
+
+URL: https://code.google.com/p/io-2012-slides
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">-->
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  <!--This one seems to work all the time, but really small on ipad-->
+  <!--<meta name="viewport" content="initial-scale=0.4">-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" media="all" href="theme/css/default.css">
+  <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="theme/css/phone.css">
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
+  <script data-main="js/slides" src="js/require-1.0.8.min.js"></script>
+</head>
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+<slide class="fill nobackground" style="background-image: url(images/Superman_by_iGamer.jpg)">
+    <hgroup>
+      <h2 class="white">Superman is Not a Good Agile Team Member </h2>
+    </hgroup>
+    <footer class="source white"></footer>
+  </slide>
+
+  <slide class="title-slide segue nobackground">
+      <aside class="gdbar"><img src="images/google_developers_icon_128.png"></aside>
+      <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+      <hgroup class="auto-fadein">
+        <h1 data-config-title><!-- populated from slide_config.json --></h1>
+        <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
+        <p data-config-presenter><!-- populated from slide_config.json --></p>
+      </hgroup>
+  </slide>
+  <slide class="thank-you-slide dark nobackground">
+      <article class="flexbox vleft auto-fadein" style="position: relative; top: -50px" >
+  	  <p>Karen D. Siers, PMP, PSM </p><br />
+    	  <ul>
+  			<p>History</p>
+  			<br/>
+  			<li>Over 22 Years of Experience</li>
+  			<li>Developer </li>
+  			<li>Business Analyst</li>
+  			<li>Project Manager</li>
+  			<li>Scrum Master </li>
+  			<li>First and Foremost... a Passionate Agilist</li>
+  			<br/>
+  			<br/>
+
+  				<p>Associations</p>
+  		<br />
+  			<li>TALK, Louisville Agile Forum, Louisville CIO Series</li>
+  			<li>PMI, IIBA</li>
+  	  </ul>
+  		<p class="auto-fadein" style="position: relative; top: -40px" data-config-contact>
+  	      <!-- populated from slide_config.json -->
+  	    </p>
+      </article>
+  </slide>
+  <slide>
+  	<hgroup>
+        <h2>Agenda</h2>
+      </hgroup>
+      <article>
+       	<ul class="build">
+  			<li>Work History</li>
+  			<li>Disclaimers</li>
+  			<li>Define Agile Software Development</li>
+  			<li>Superman/Developer Tie-In </li>
+  			<li> Review Common Challenges </li>
+  			<li>Additions</li>
+  			<li>Questions</li>
+  	    </ul>
+      </article>
+  </slide>
+   <slide>
+  	<hgroup>
+        <h2>Agile Software Development</h2>
+      </hgroup>
+  	<article>
+  			<span><b>Wikipedia:</b> Agile Software Development is a group of software development methods based on iterative and incremental development, where requirements and solutions evolve through collaboration between self-organizing, cross-functional teams. It promotes adaptive planning, evolutionary development and delivery, a time-boxed iterative approach, and encourages rapid and flexible response to change. It is a conceptual framework that promotes foreseen interactions throughout the development cycle.  </span><br /><br />
+  			      </article>
+    </slide>
+     <slide>
+	      <hgroup>
+	        <h2>Key Principles of Agile</h2>
+	      </hgroup>
+	      <article>
+	        <ul class="build fade">
+	          <li>Transparency</li>
+	          <li>Business Value </li>
+	          <li>Commitment</li>
+	          <li>Incremental development</li>
+	          <li>Continuous Improvement </li>
+	          <li>Minimal documentation </li>
+	          <li>Collaboration </li>
+			  <li>Sustainable pace </li>
+			  <li>Discipline</li>
+			  <li>Iterative development</li>
+			  <li>Stop.Inspect.Adapt  </li>
+	          <li>Swarming </li>
+	          <li>Cross Functional Teams</li>
+	          <li>Meetings </li>
+	        </ul>
+	      </article>
+  </slide>
+  <slide>
+    <hgroup>
+      <h2>Strong Developers</h2>
+      <h3>Superman Tie-in </h3>
+    </hgroup>
+    <article>
+     <p>Does this sound familiar?</p>
+      <ul class="build fade">
+        <li>Faster than a speeding bullet</li>
+        <li>More powerful than a locomotive</li>
+        <li>Able to code systems in a single bound</li>
+        <li>It's a bird</li>
+		<li>It's a plane</li>
+        <li>It is an Awesome Developer</li>
+      </ul>
+    </article>
+  </slide>
+  <slide>
+  		<article>
+  			<br /><br />
+  	     	<span>
+  				<img id="superman-png" src="/images/superman.png" width="500" height="375" alt="superman-png[1]" style="float:left;margin-right:25px;"/>
+  				<span>
+  				<br /><br /><br /><br />
+				 "One of the most common mistakes almost <b>everyone</b> makes is thinking
+				 that Agile is a series of steps and if you learn the steps, you're there,"
+				 <b>~Damon Poole</b>, chief agilist at Elaissen Group.
+				 <br/><br/><br/>"People don't realize exactly what they're getting into."<br /><br />
+  				</span>
+  	    </article>
+  </slide>
+
+ <slide>
+    <hgroup>
+      <h2>Agile is Hard</h2>
+    </hgroup>
+    <article>
+     <p>No matter the role<p>
+     </article>
+     <p>This is true for:</p>
+      <ul class="build fade">
+        <li>Executives</li>
+        <li>Project Managers</li>
+        <li>Scrum Masters</li>
+        <li>Quality Analyst</li>
+        <li>Business Analyst</li>
+        <li>especially....Developers</li>
+      </ul>
+    </article>
+  </slide>
+ <slide>
+      <hgroup>
+        <h2>Why is it challenging for developers? </h2>
+        <h3>(assume eco-system is in place) </h3>
+      </hgroup>
+      <article>
+        <ul>
+          <li>A product of our environment </li>
+          <li>Rewards from the past</li>
+          <li>What is on your business card is not the only role you have</li>
+          <li>Know just enough of the design </li>
+          <li>Do not under estimate yourself</li>
+          <li>But that is what you asked for </li>
+          <li>The user is using it wrong </li>
+        </ul>
+      </article>
+    </slide>
+ <slide>
+      <hgroup>
+        <h2>What does the term Agile Developer Mean? </h2>
+        <h3>A few quotes from the past </h3>
+      </hgroup>
+      <article>
+        <ul>
+          <li>If I am a great developer now, I will always be a great developer </li>
+          <li>Agile, that is how I have always worked</li>
+           <li>Agile equlas no documentation</li>
+           <li>I have been "agile" for a long time, I know what I am doing</li>
+           <li>They do not even know what they need </li>
+       </article>
+    </slide>
+ <slide>
+	<hgroup>
+      <h2>Brilliance</h2>
+       <h3>Was Einstein Agile?</h3>
+    </hgroup>
+      <article class="flexbox vcenter">
+	      <img src="images/albert.png" alt="Description" title="Description" style="float:left;margin-right: 20px;">
+	      <span class="italics"> " We cannot solve our problems with the same thinking we used when we created them."</span>
+	      <div style="clear:both"
+	      <footer class="source">source: www.brainyquote.com</footer>
+    </article>
+
+  </slide>
+
+  <slide>
+    <article>
+     	<span class="build">
+	     	<img id="li-image5" src="/images/courage.png">
+	 		<img id="li-image2" src="/images/Teams.png">
+	 		<img id="li-image4" src="/images/Success.png">
+			<img id="li-image1" src="/images/Speed.png">
+			<img id="li-image3" src="/images/ck.png">
+			<img id="li-image6" src="/images/superman.png">
+	    </span>
+    </article>
+  </slide>
+  <slide>
+    <hgroup>
+      <h2>Self Reflection</h2>
+    </hgroup>
+    <article class="flexbox vcenter">
+      <img src="images/clark.png" alt="Description" title="Description" style="float:left;margin-right: 3px;">
+      <span>
+	        	<ul>
+	           <li>Perfection</li>
+	           <li>Identify your kryptonite</li>
+	           <li>Stress equals regression</li>
+	           <li>Continuos Improvement</li>
+	        	</ul>
+      </span>
+      <footer class="source"></footer>
+    </article>
+  </slide><slide>
+    <hgroup>
+      <h2>Courage</h2>
+    </hgroup>
+    <article class="flexbox vcenter">
+		  <img src="images/courage1.png" alt="Description" title="Description" style="float:left;margin-right: 30px;">
+      <span>
+	        	<ul>
+	           <li>Remember Agile is Hard</li>
+	           <li>Self-Organization/Team Accountability</li>
+	           <li>Say no to extra work </li>
+	           <li>Transparency is Hard</li>
+	        	</ul>
+      </span>
+    </article>
+  </slide>
+<slide>
+    <hgroup>
+      <h2>Speed</h2>
+    </hgroup>
+    <article class="flexbox vcenter">
+      <img src="images/speed.png" alt="Description" title="Description" style="float:left;margin-right: 30px;">
+      <span>
+      	<ul>
+         <li>Code Quick</li>
+         <li>Know what you know</li>
+         <li>I know what they need</li>
+         <li>Quick to QA</li>
+      	</ul>
+      </span>
+      <div style="clear:both"
+      <footer class="source"></footer>
+    </article>
+  </slide>
+  <slide>
+      <hgroup>
+        <h2>Identity</h2>
+      </hgroup>
+      <article class="flexbox vcenter">
+        <img src="images/identity.png" alt="Description" title="Description" style="float:left;margin-right: 30px;">
+        <span>
+		      	<ul>
+		         <li>Be the best</li>
+		         <li>The decision maker</li>
+		         <li>Go-to</li>
+		         <li>Critical</li>
+		      	</ul>
+      </span>
+      </article>
+  </slide>
+   <slide>
+        <hgroup>
+          <h2>Power in Teams</h2>
+        </hgroup>
+        <article class="flexbox vcenter">
+          <img src="images/Teams.png" alt="Description" title="Description" style="float:left;margin-right: 30px;">
+           <span>
+		  		      	<ul>
+		  		         <li>Collective Decisions</li>
+		  		         <li>Ownership</li>
+		  		         <li>Recognize what each contributes</li>
+		  		         <li>Pair Programming</li>
+		  		         <li>Work/Life Balance</li>
+		  		      	</ul>
+           </span>
+         </article>
+  </slide>
+    <slide>
+        <hgroup>
+          <h2>Meetings</h2>
+        </hgroup>
+        <article class="flexbox vcenter">
+          <img src="images/meetings.png" alt="Description" title="Description" style="float:left;margin-right: 30px;">
+          <span>
+		  		  		      	<ul>
+		  		  		         <li>Communication is necessary</li>
+		  		  		         <li>Open spaces</li>
+		  		  		         <li>Only when useful</li>
+		  		  		      	</ul>
+      </span>
+        </article>
+  </slide>
+   <slide>
+          <hgroup>
+            <h2>Success and Failure</h2>
+          </hgroup>
+          <article class="flexbox vcenter">
+            <img src="images/Success.png" alt="Description" title="Description" style="float:left;margin-right: 30px;">
+             <span>
+  		  		      	<ul>
+  		  		         <li>Succeed Together</li>
+  		  		         <li>Fail Together</li>
+  		  		      	</ul>
+        </span>
+          </article>
+  </slide>
+  <slide>
+      <article>
+       	<span class="build">
+  	     	<img id="li-image5" src="/images/courage.png">
+  	 		<img id="li-image2" src="/images/Teams.png">
+  	 		<img id="li-image4" src="/images/Success.png">
+  			<img id="li-image1" src="/images/Speed.png">
+  			<img id="li-image3" src="/images/ck.png">
+  			<img id="li-image6" src="/images/superman.png">
+  	    </span>
+      </article>
+  </slide>
+  <slide class="thank-you-slide dark nobackground">
+        <article class="flexbox vleft auto-fadein" style="position: relative; top: -50px" >
+    	  <P>Thank You  </P><br />
+      	  <ul>
+    			<p>Mentors</p>
+    			<br />
+    			<p>Developers</p>
+    		<br />
+    		<p>Companies</p>
+    		<br />
+    		<p>Code PaLOUsa</p>
+    		<br />
+    		<P>Local Resources  </P><br />
+			      	  <ul>
+			    			<p>Louisville Agile Forum </p>
+			    			<br />
+			    			<p>TALK</p>
+			    		<br />
+    		<br />
+
+    	  </ul>
+    		<p class="auto-fadein" style="position: relative; top: -60px" data-config-contact>
+    	      <!-- populated from slide_config.json -->
+    	    </p>
+        </article>
+  </slide>
+  <slide class="segue dark nobackground">
+    <aside class="gdbar"><img src="images/google_developers_icon_128.png"></aside>
+    <hgroup class="auto-fadein">
+      <h2>Questions/Comments?</h2>
+    </hgroup>
+  </slide>
+  <slide class="fill nobackground" style="background-image: url(images/Superman_by_iGamer.jpg)">
+      <hgroup>
+        <h2 class="white">Superman is Not a Good Agile Team Member </h2>
+      </hgroup>
+      <footer class="source white"></footer>
+  </slide>
+  <slide class="backdrop"></slide>
+</slides>
+
+<script>
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-XXXXXXXX-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+<!--[if IE]>
+  <script src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+  <script>CFInstall.check({mode: 'overlay'});</script>
+<![endif]-->
+</body>
+</html>
